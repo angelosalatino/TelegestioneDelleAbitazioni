@@ -1,0 +1,11 @@
+HELP: Comando relativo alla richiesta d’aiuto, fornisce all’utente le istruzioni necessarie
+ALARM [ON,OFF,STATE]: Permette di gestire l’impianto di allarme
+CLIME [ACT,DEACT,STATE] [num]: Attiva o disattiva i climatizzatori 
+IRR [ON,OFF,STATE] [num]: Gestisce impianto di irrigazione per il giardino
+LAMP [ON,OFF,STATE] [num]: Gestisce l’impianto luce
+OVEN [ON,OFF,STATE]: Gestisce l’accensione o lo spegnimento del forno
+SCENE [SEE,STATE] [num]: Attiva o disattiva scenari precedentemente creati
+BLIND [LOWER,RAISE,STATE] [num]: Alza o abbassa le tapparelle
+STATE: Fornisce lo stato generale sull’abitazione
+QUIT: Consente di effettuare il logout
+CLOSESRV: Disattiva il server per questioni di sicurezza

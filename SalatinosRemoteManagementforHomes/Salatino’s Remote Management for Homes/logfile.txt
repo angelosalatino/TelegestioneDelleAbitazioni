@@ -1,0 +1,337 @@
+	CLIENT /127.0.0.1:4169>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: --Stato del forno: Spento
+	CLIENT /127.0.0.1:4169>: Risposta inviata: Scenari:
+	CLIENT /127.0.0.1:4169>: Risposta inviata: 	Scenari non presenti
+Connessione stabilita con: /127.0.0.1:4321 -> Thu Aug 26 20:29:27 CEST 2010
+	CLIENT /127.0.0.1:4321>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: --Stato del forno: Spento
+	CLIENT /127.0.0.1:4321>: Risposta inviata: Scenari:
+	CLIENT /127.0.0.1:4321>: Risposta inviata: 	Scenari non presenti
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 14:15:51 CEST 2010
+Connessione stabilita con: /127.0.0.1:2327 -> Fri Aug 27 14:15:58 CEST 2010
+	CLIENT /127.0.0.1:2327>: Comando ricevuto: SCENE
+	CLIENT /127.0.0.1:2327>: Risposta inviata: 401 Sintassi del comando errata
+	CLIENT /127.0.0.1:2327>: Comando ricevuto: SCENE
+	CLIENT /127.0.0.1:2327>: Risposta inviata: 401 Sintassi del comando errata
+	CLIENT /127.0.0.1:2327>: Comando ricevuto: SCENE STATE
+	CLIENT /127.0.0.1:2327>: Risposta inviata: 	Scenari non presenti
+	CLIENT /127.0.0.1:2327>: Comando ricevuto: SCENE 1
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 14:46:02 CEST 2010
+Connessione stabilita con: /127.0.0.1:3654 -> Fri Aug 27 14:46:14 CEST 2010
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE STATE
+	CLIENT /127.0.0.1:3654>: Risposta inviata: --1 Esci
+	CLIENT /127.0.0.1:3654>: Risposta inviata: --2 Irrigazione
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE SEE 1
+	CLIENT /127.0.0.1:3654>: Risposta inviata: ALARM ON
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Termine lista.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE SEE 2
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Termine lista.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE SEE 1
+	CLIENT /127.0.0.1:3654>: Risposta inviata: ALARM ON
+	CLIENT /127.0.0.1:3654>: Risposta inviata: LAMP OFF 1
+	CLIENT /127.0.0.1:3654>: Risposta inviata: LAMP OFF 2
+	CLIENT /127.0.0.1:3654>: Risposta inviata: LAMP OFF 3
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Termine lista.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE SEE 2
+	CLIENT /127.0.0.1:3654>: Risposta inviata: IRR ON 1
+	CLIENT /127.0.0.1:3654>: Risposta inviata: IRR ON 2
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Termine lista.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE 2
+	CLIENT null>: Comando ricevuto: IRR ON 1
+	CLIENT null>: Comando ricevuto: IRR ON 2
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Scenario attivato.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: SCENE 1
+	CLIENT null>: Comando ricevuto: ALARM ON
+	CLIENT null>: Comando ricevuto: LAMP OFF 1
+	CLIENT null>: Comando ricevuto: LAMP OFF 2
+	CLIENT null>: Comando ricevuto: LAMP OFF 3
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 310 Comando Ridondante: Luce già spenta.
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 310 Comando Ridondante: Luce già spenta.
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 310 Comando Ridondante: Luce già spenta.
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Scenario attivato.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: ALARM OFF
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: IRR OFF 1
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: IRR OFF 2
+	CLIENT /127.0.0.1:3654>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:3654>: Comando ricevuto: CLOSESRV
+Disconnesso da: /127.0.0.1:3654 -> Fri Aug 27 14:51:32 CEST 2010
+Server non in ascolto ->Fri Aug 27 14:51:32 CEST 2010
+	CLIENT /127.0.0.1:3654>: Risposta inviata: Server chiuso. Riattivarlo in loco.
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 14:53:28 CEST 2010
+Connessione stabilita con: /127.0.0.1:1846 -> Fri Aug 27 15:24:39 CEST 2010
+	CLIENT /127.0.0.1:1846>: Comando ricevuto: SCENE
+	CLIENT /127.0.0.1:1846>: Risposta inviata: 401 Sintassi del comando errata
+	CLIENT /127.0.0.1:1846>: Comando ricevuto: SCENE 1
+	CLIENT null>: Comando ricevuto: ALARM ON
+	CLIENT null>: Comando ricevuto: LAMP OFF 1
+	CLIENT null>: Comando ricevuto: LAMP OFF 2
+	CLIENT null>: Comando ricevuto: LAMP OFF 3
+	CLIENT /127.0.0.1:1846>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:1846>: Risposta inviata: 310 Comando Ridondante: Luce già spenta.
+	CLIENT /127.0.0.1:1846>: Risposta inviata: 310 Comando Ridondante: Luce già spenta.
+	CLIENT /127.0.0.1:1846>: Risposta inviata: 310 Comando Ridondante: Luce già spenta.
+	CLIENT /127.0.0.1:1846>: Risposta inviata: Scenario attivato.
+	CLIENT /127.0.0.1:1846>: Comando ricevuto: CLOSESRV
+Disconnesso da: /127.0.0.1:1846 -> Fri Aug 27 15:25:07 CEST 2010
+Server non in ascolto ->Fri Aug 27 15:25:07 CEST 2010
+	CLIENT /127.0.0.1:1846>: Risposta inviata: Server chiuso. Riattivarlo in loco.
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 16:02:05 CEST 2010
+Connessione stabilita con: /127.0.0.1:3325 -> Fri Aug 27 16:02:31 CEST 2010
+Connessione stabilita con: /127.0.0.1:3329 -> Fri Aug 27 16:02:37 CEST 2010
+Connessione stabilita con: /127.0.0.1:3331 -> Fri Aug 27 16:02:41 CEST 2010
+Connessione stabilita con: /127.0.0.1:3336 -> Fri Aug 27 16:02:44 CEST 2010
+Connessione stabilita con: /127.0.0.1:3338 -> Fri Aug 27 16:02:48 CEST 2010
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 16:04:07 CEST 2010
+Connessione stabilita con: /127.0.0.1:3431 -> Fri Aug 27 16:04:28 CEST 2010
+Connessione stabilita con: /127.0.0.1:3434 -> Fri Aug 27 16:04:31 CEST 2010
+Connessione stabilita con: /127.0.0.1:3437 -> Fri Aug 27 16:04:34 CEST 2010
+Connessione stabilita con: /127.0.0.1:3441 -> Fri Aug 27 16:04:38 CEST 2010
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 16:10:04 CEST 2010
+Connessione stabilita con: /127.0.0.1:3638 -> Fri Aug 27 16:10:14 CEST 2010
+Connessione stabilita con: /127.0.0.1:3846 -> Fri Aug 27 16:15:02 CEST 2010
+Connessione stabilita con: /127.0.0.1:3858 -> Fri Aug 27 16:15:12 CEST 2010
+Connessione stabilita con: /127.0.0.1:3862 -> Fri Aug 27 16:15:16 CEST 2010
+Connessione stabilita con: /127.0.0.1:3864 -> Fri Aug 27 16:15:19 CEST 2010
+Connessione stabilita con: /127.0.0.1:4021 -> Fri Aug 27 16:21:49 CEST 2010
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 16:22:15 CEST 2010
+Connessione stabilita con: /127.0.0.1:4039 -> Fri Aug 27 16:22:21 CEST 2010
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 16:29:06 CEST 2010
+Connessione stabilita con: /127.0.0.1:4314 -> Fri Aug 27 16:29:24 CEST 2010
+Connessione stabilita con: /127.0.0.1:4320 -> Fri Aug 27 16:29:33 CEST 2010
+Connessione stabilita con: /127.0.0.1:4326 -> Fri Aug 27 16:29:42 CEST 2010
+	CLIENT /127.0.0.1:4326>: Comando ricevuto: ALARM STATE
+	CLIENT /127.0.0.1:4326>: Risposta inviata: --Stato allarme: Attivato
+	CLIENT /127.0.0.1:4326>: Comando ricevuto: ALARM OFF
+	CLIENT /127.0.0.1:4326>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:4326>: Comando ricevuto: ALARM STATE
+	CLIENT /127.0.0.1:4326>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4326>: Comando ricevuto: QUIT
+Disconnesso da: /127.0.0.1:4326 -> Fri Aug 27 16:30:15 CEST 2010
+	CLIENT /127.0.0.1:4326>: Risposta inviata: Logout effettauto.
+Server in ascolto sulla porta: 2718 -> Fri Aug 27 16:34:01 CEST 2010
+Connessione stabilita con: /127.0.0.1:4520 -> Fri Aug 27 16:34:09 CEST 2010
+	CLIENT /127.0.0.1:4520>: Comando ricevuto: ALARM ON
+	CLIENT /127.0.0.1:4520>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:4520>: Comando ricevuto: ALARM OFF
+	CLIENT /127.0.0.1:4520>: Risposta inviata: 210 Comando accettato.
+	CLIENT /127.0.0.1:4520>: Comando ricevuto: ALARM STATE
+	CLIENT /127.0.0.1:4520>: Risposta inviata: --Stato allarme: Disattivato
+Server in ascolto sulla porta: 2718 -> Tue Aug 31 20:53:19 CEST 2010
+Connessione stabilita con: /127.0.0.1:3575 -> Tue Aug 31 20:53:53 CEST 2010
+	CLIENT /127.0.0.1:3575>: Comando ricevuto: ALARM STATE
+	CLIENT /127.0.0.1:3575>: Risposta inviata: 510 Errore del server, non è possibile gestire il comando
+	CLIENT /127.0.0.1:3575>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --1 Frontale: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --2 Laterale: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --1 Bagno: Abbassata
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --2 Cucina: Abbassata
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --3 Salotto: Abbassata
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --4 Camera da Letto: Abbassata
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --1 Bagno: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --Stato del forno: Spento
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Scenari:
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --1 Esci
+	CLIENT /127.0.0.1:3575>: Risposta inviata: --2 Irrigazione
+	CLIENT /127.0.0.1:3575>: Comando ricevuto: QUIT
+Disconnesso da: /127.0.0.1:3575 -> Tue Aug 31 21:11:29 CEST 2010
+	CLIENT /127.0.0.1:3575>: Risposta inviata: Logout effettauto.
+Server in ascolto sulla porta: 2718 -> Tue Aug 31 21:21:19 CEST 2010
+Connessione stabilita con: /127.0.0.1:4078 -> Tue Aug 31 21:21:24 CEST 2010
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: ALARM STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: BLIND STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Bagno: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Abbassata
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: LAMP STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Bagno: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: OVEN STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --Stato del forno: Spento
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: SCENE STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Esci
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Irrigazione
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: HELP
+	CLIENT /127.0.0.1:4078>: Risposta inviata: HELP: Comando relativo alla richiesta d’aiuto, fornisce all’utente le istruzioni necessarie
+	CLIENT /127.0.0.1:4078>: Risposta inviata: ALARM [ON,OFF,STATE]: Permette di gestire l’impianto di allarme
+	CLIENT /127.0.0.1:4078>: Risposta inviata: CLIME [ACT,DEACT,STATE] [num]: Attiva o disattiva i climatizzatori 
+	CLIENT /127.0.0.1:4078>: Risposta inviata: IRR [ON,OFF,STATE] [num]: Gestisce impianto di irrigazione per il giardino
+	CLIENT /127.0.0.1:4078>: Risposta inviata: LAMP [ON,OFF,STATE] [num]: Gestisce l’impianto luce
+	CLIENT /127.0.0.1:4078>: Risposta inviata: OVEN [ON,OFF,STATE]: Gestisce l’accensione o lo spegnimento del forno
+	CLIENT /127.0.0.1:4078>: Risposta inviata: SCENE [SEE,STATE] [num]: Attiva o disattiva scenari precedentemente creati
+	CLIENT /127.0.0.1:4078>: Risposta inviata: BLIND [LOWER,RAISE,STATE] [num]: Alza o abbassa le tapparelle
+	CLIENT /127.0.0.1:4078>: Risposta inviata: STATE: Fornisce lo stato generale sull’abitazione
+	CLIENT /127.0.0.1:4078>: Risposta inviata: QUIT: Consente di effettuare il logout
+	CLIENT /127.0.0.1:4078>: Risposta inviata: CLOSESRV: Disattiva il server per questioni di sicurezza
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: CLIME STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Frontale: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Laterale: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Bagno: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Bagno: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --Stato del forno: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Scenari:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Esci
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Irrigazione
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Frontale: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Laterale: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Bagno: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Abbassata
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --1 Bagno: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:4078>: Risposta inviata: 520 Errore sulla lettura dell’impianto
+	CLIENT /127.0.0.1:4078>: Risposta inviata: 
+Scenari:
+--1 Esci
+--2 Irrigazione
+
+	CLIENT /127.0.0.1:4078>: Comando ricevuto: CLOSESRV
+Disconnesso da: /127.0.0.1:4078 -> Tue Aug 31 21:25:12 CEST 2010
+Server non in ascolto ->Tue Aug 31 21:25:12 CEST 2010
+	CLIENT /127.0.0.1:4078>: Risposta inviata: Server chiuso. Riattivarlo in loco.
+Server in ascolto sulla porta: 2718 -> Tue Aug 31 21:25:24 CEST 2010
+Connessione stabilita con: /127.0.0.1:4094 -> Tue Aug 31 21:25:31 CEST 2010
+	CLIENT /127.0.0.1:4094>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --1 Frontale: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --2 Laterale: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --1 Bagno: Abbassata
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --2 Cucina: Abbassata
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --3 Salotto: Abbassata
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --4 Camera da Letto: Abbassata
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --1 Bagno: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: 520 Errore sulla lettura dell’impianto
+	CLIENT /127.0.0.1:4094>: Risposta inviata: Scenari:
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --1 Esci
+	CLIENT /127.0.0.1:4094>: Risposta inviata: --2 Irrigazione
+	CLIENT /127.0.0.1:4094>: Comando ricevuto: OVEN ON
+	CLIENT /127.0.0.1:4094>: Risposta inviata: 510 Errore del server, non è possibile gestire il comando
+	CLIENT /127.0.0.1:4094>: Comando ricevuto: OVEN OFF
+	CLIENT /127.0.0.1:4094>: Risposta inviata: 510 Errore del server, non è possibile gestire il comando
+	CLIENT /127.0.0.1:4094>: Comando ricevuto: OVEN STATE
+	CLIENT /127.0.0.1:4094>: Risposta inviata: 510 Errore del server, non è possibile gestire il comando
+Server in ascolto sulla porta: 2718 -> Tue Aug 31 21:31:30 CEST 2010
+Connessione stabilita con: /127.0.0.1:4134 -> Tue Aug 31 21:31:44 CEST 2010
+	CLIENT /127.0.0.1:4134>: Comando ricevuto: STATE
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Allarme:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --Stato allarme: Disattivato
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Climatizzatori:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Irrigazione:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --1 Frontale: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --2 Laterale: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Tapparelle:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --1 Bagno: Abbassata
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --2 Cucina: Abbassata
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --3 Salotto: Abbassata
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --4 Camera da Letto: Abbassata
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Lampade:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --1 Bagno: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --2 Cucina: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --3 Salotto: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --4 Camera da Letto: Spento
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Forno:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: 520 Errore sulla lettura dell’impianto
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Scenari:
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --1 Esci
+	CLIENT /127.0.0.1:4134>: Risposta inviata: --2 Irrigazione
+	CLIENT /127.0.0.1:4134>: Comando ricevuto: OVEN STATE
+	CLIENT /127.0.0.1:4134>: Risposta inviata: 510 Errore del server, non è possibile gestire il comando
+	CLIENT /127.0.0.1:4134>: Comando ricevuto: CLOSESRV
+Disconnesso da: /127.0.0.1:4134 -> Tue Aug 31 21:32:43 CEST 2010
+Server non in ascolto ->Tue Aug 31 21:32:43 CEST 2010
+	CLIENT /127.0.0.1:4134>: Risposta inviata: Server chiuso. Riattivarlo in loco.
+Server in ascolto sulla porta: 2718 -> Tue Aug 31 22:12:18 CEST 2010
+Connessione stabilita con: /127.0.0.1:4686 -> Tue Aug 31 22:13:26 CEST 2010
+	CLIENT /127.0.0.1:4686>: Comando ricevuto: QUIT
+Disconnesso da: /127.0.0.1:4686 -> Tue Aug 31 22:13:37 CEST 2010
+	CLIENT /127.0.0.1:4686>: Risposta inviata: Logout effettauto.
+Server in ascolto sulla porta: 2718 -> Tue Aug 31 22:15:58 CEST 2010
+Connessione stabilita con: /127.0.0.1:4687 -> Tue Aug 31 22:16:06 CEST 2010
+	CLIENT /127.0.0.1:4687>: Comando ricevuto: QUIT
+Disconnesso da: /127.0.0.1:4687 -> Tue Aug 31 22:16:14 CEST 2010
+	CLIENT /127.0.0.1:4687>: Risposta inviata: Logout effettauto.
+Server in ascolto sulla porta: 2718 -> Mon Sep 06 21:06:39 CEST 2010
